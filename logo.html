@@ -4,69 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <style>
-    .red{
-        background-color: red;
-        width: 15%;
-        float: left;
-    }
-    .blue{
-        background-color: blue;
-        width: 15%;
-        float: left;
-    }
-    .green{
-        background-color: green;
-        width: 15%;
-        float: right;
-    }
-    .yellow{
-        background-color: yellow;
-        width: 15%;
-        float: right;
-    }
-</style> -->
-<style>
-    #fblock{
-        background-color: orange;
-        padding: 50px;
-        width: 50px;
-        float: left;
-
-        
-        
-    }
-    .blue{
-        background-color: rgb(12, 232, 38);
-        padding: 50px;
-        width: 50px;  
-        float: left;
-
-    }
-    .green{
-        background-color: blue;
-        padding: 50px;
-        width: 50px;
-        height: 75px;
-        float:
-
-    }
-    .yellow{
-        background-color: yellow;
-        padding: 50px;
-        width: 50px;
-        float: right
-        
+    <title>Document</title></head>
+    <style>
+      .yellow{
+        background-color: darkkhaki;
+      }
+      .violet{
+        background-color: violet;
+      }
+      .blue{
+        background-color: lightblue;
+      }
+    </style>
+<body>
+  <table border="2px">
+    <tr>
+      <th colspan="6">TIME TABLE</th>
+    </tr>
+    <tr>
+      <TH rowspan="6" >HOURS</TH>
+      <th>MON</th>
+      <th>TUE</th>
+      <th>WED</th>
+      <th>THU</th>
+      <th>FRI</th>
+    </tr>
+    <TR>
       
-    }
-</style>
-</head>
-<body><div id="fblock"></div>
-    <div class="blue"></div> <br>
-    <div class="green"></div>
-    <div class="yellow"></div>
-
+      <TD>COMPUTER</TD>
+      <TD>MATHS</TD>
+      <TD>COMPUTER</TD>
+      <TD>MATHS </TD>
+      <TD>ARTS</TD>
+    </TR>
+    <TR>
+      
+      <TD>COMPUTER</TD>
+      <TD>MATHS</TD>
+      <TD>COMPUTER</TD>
+      <TD>MATHS </TD>
+      <TD>ARTS</TD>
+    </TR>
+    <TR>
+      
+      <TH colspan="5" >LUNCH</TH>
+    </TR>
+    <TR>
+      
+      <TD>COMPUTER</TD>
+      <TD>MATHS</TD>
+      <TD>COMPUTER</TD>
+      <TD>MATHS </TD>
+      <TD rowspan="2">PROJECT</TD>
+    </TR>
+    <TR>
+    
+    <TD>COMPUTER</TD>
+    <TD>MATHS</TD>
+    <TD>COMPUTER</TD>
+    <TD>MATHS </TD>
+    
+  </TR>
+  </table>
+  <table border="2PX">
+    <tr>
+      <th rowspan="3">DAY</th>
+      <th colspan="3">SEMINAR</th>
+    </tr>
+    <tr>
+      <th colspan="2">schedule</th>
+      <th rowspan="2">TOPIC</th>
+    </tr>
+    <tr>
+      <th>BEGIN</th>
+      <TH>END</TH>
+    </tr>
+    <tr>
+      <td rowspan="2">MONDAY</td>
+      <td rowspan="2" class="yellow">8.00 AM.</td>
+      <td rowspan="2" class="violet">5.00PM</td>
+      <td>INTRODUCTION TO XML</td>
+    </tr>
+    <tr>
+     <TD> VALIDITY DTD AND RELAX NG</TD>
+    </tr>
+    <tr>
+      <td rowspan="3">TUESDAY</td>
+      <td  class="yellow">8.00am</td>
+      <td  class="yellow">11.00am</td>
+      <td rowspan="2">X PATH</td>
+    </tr>
+    <tr>
+      <td  class="yellow">11.00am</td>
+      <td class="blue">2.00am</td>
+    </tr>
+    <tr>
+      <td class="blue">2.00pm</td>
+      <td class="violet">5.00pm</td>
+      <td>XSL Transformations </td>
+    </tr>
+<tr>
+  <td>Wednesday</td>
+  <td  class="yellow">8.00am</td>
+  <td class="blue">12.00am</td>
+  <td>XSL FORMATTING OBJECTS</td>
+</tr>
+  </table>
 </body>
-</html>
-<!-- orange,green,blue,yellow -->
