@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        legend{
+            background-color: rgba(192, 18, 18, 0.367);
+            color:rgb(212, 204, 213)
+        }
+        #submit{
+            background-color: dimgray;
+            margin-right: 40%;
+        }
+    </style>
+</head>
+<body>
+    <fieldset id="submit"><legend>PERSONAL DETAILS <b></b></legend>
+        <form action="#">
+            <label for="prefix">SALUTATION</label><BR>
+            <select name="salutasn" id="prefix" >
+                <option value="mr">MR</option>
+                <option value="mrs">MRS</option>
+                <option value="ms">MISS</option>
+            </select><br><br>
+            <label for="firstname">FIRST NAME:-</label>
+            <input type="text" id="firstname" ><br><br>
+            <label for="name"> SECOND NAME:-</label>
+            <input type="text" id="name" ><br><br>
+            <LABel>GENDER:-</LABel>
+            <input type="radio" id="gender" name="persongender">
+            <label for="gender">MALE</label>
+            <input type="radio" name="persongender" id="gender2">
+            <label for="gender2">FEMALE</label><br><br>
+            <label for="gmail">GMAIL</label>
+            <input type="email" id="gmail"><br><br>
+            <label for="birthday" >DATE OF BIRTH</label>
+            <input type="date" id="birthday"><br><br>
+            <label for="address">ADDRESS:-</label><br><br>
+            <textarea name="" id="address" cols="30" rows="5"></textarea><br><br>
+            <input type="submit">
+            <input type="reset">
+
+        </form>
+    </fieldset>
+</body>
+</html>
