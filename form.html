@@ -14,10 +14,17 @@
             background-color: dimgray;
             margin-right: 40%;
         }
+        .border{
+            border-radius: 5px; 
+            color: azure;
+        }
+        #border{
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
-    <fieldset id="submit"><legend>PERSONAL DETAILS <b></b></legend>
+    <fieldset id="submit" class="border"><legend>PERSONAL DETAILS <b></b></legend>
         <form action="#">
             <label for="prefix">SALUTATION</label><BR>
             <select name="salutasn" id="prefix" >
@@ -26,22 +33,24 @@
                 <option value="ms">MISS</option>
             </select><br><br>
             <label for="firstname">FIRST NAME:-</label>
-            <input type="text" id="firstname" ><br><br>
+            <input type="text" id="firstname"  class="border"><br><br>
             <label for="name"> SECOND NAME:-</label>
-            <input type="text" id="name" ><br><br>
+            <input type="text" id="name" class="border" ><br><br>
             <LABel>GENDER:-</LABel>
-            <input type="radio" id="gender" name="persongender">
+            <input type="radio" id="gender" name="persongender" class="border">
             <label for="gender">MALE</label>
-            <input type="radio" name="persongender" id="gender2">
+            <input type="radio" name="persongender" id="gender2" class="border">
             <label for="gender2">FEMALE</label><br><br>
             <label for="gmail">GMAIL</label>
-            <input type="email" id="gmail"><br><br>
+            <input type="email" id="gmail" class="border"><br><br>
             <label for="birthday" >DATE OF BIRTH</label>
-            <input type="date" id="birthday"><br><br>
+            <input type="date" id="birthday" class="border"><br><br>
             <label for="address">ADDRESS:-</label><br><br>
             <textarea name="" id="address" cols="30" rows="5"></textarea><br><br>
-            <input type="submit">
-            <input type="reset">
+            <label for="range">ESTIMATED MARKS:- </label>
+           <sup>1</sup> <input type="range" id="range"> <sup>100</sup><br><br>
+            <input type="submit" id="border">
+            <input type="reset" id="border">
 
         </form>
     </fieldset>
